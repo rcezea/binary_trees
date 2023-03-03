@@ -17,7 +17,7 @@ new_node->parent = parent;
 new_node->n = value;
 if (!new_node)
 {
-	return (NULL);
+return (NULL);
 }
 if (parent->left != NULL)
 {
