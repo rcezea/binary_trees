@@ -13,8 +13,7 @@ if (!parent)
 {
 return (NULL);
 }
-new_node->parent = parent;
-new_node->n = value;
+new_node = binary_tree_node(parent, value);
 if (!new_node)
 {
 return (NULL);
